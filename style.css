@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #5a99dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    width: 60vw;
+    height: 60vh;
+    background: #3a6fb0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#clock {
+    font-size: 10vh;             
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1vw;
+    line-height: 1;
+  
+}
+
+#date {
+    margin-top: 3vh;
+    font-size: 6vh;
+    color: white;
+    letter-spacing: 0.5vw;
+    
+}
